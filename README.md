@@ -10,7 +10,7 @@ The CV Application is designed to demonstrate key React concepts including:
 * **State Management:** Utilizing `useState` hooks to manage form data dynamically.
 * **Component-Based Architecture:** Modular design dividing sections into reusable components (`GeneralInfo`, `Education`, `Experience`).
 * **Conditional Rendering:** Toggling smoothly between input forms and styled HTML display views via an Edit/Submit system.
-* **Props & Callbacks:** Passing state and update handlers across component boundaries.
+* **Props & Callbacks:** Passing state and update handlers across component boundaries.. 
 
 ---
 

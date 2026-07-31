@@ -15,7 +15,7 @@ export default function GeneralInfo({ data, onSave }) {
   const handleSubmit = (e) => {
     e.preventDefault();
     onSave(formData);
-    setIsEditing(false);
+    setIsEditing(false); 
   };
 
   const handleEdit = () => {

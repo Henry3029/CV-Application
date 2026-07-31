@@ -6,7 +6,7 @@ node_modules/
 dist/
 dist-ssr/
 build/
-*.local
+*.local 
 
 # Logs
 npm-debug.log*
@@ -16,6 +16,7 @@ pnpm-debug.log*
 
 # Environment Variables & Secrets
 .env
+.env.testnet
 .env.local
 .env.development.local
 .env.test.local

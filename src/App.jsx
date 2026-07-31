@@ -14,7 +14,7 @@ export default function App() {
     position: '',
     responsibilities: '',
     dateFrom: '',
-    dateUntil: ''
+    dateUntil: '' 
   });
 
   return (

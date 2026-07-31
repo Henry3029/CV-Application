@@ -11,7 +11,7 @@ export default function CVPreview({ general, education, experience }) {
           <span>{general.email || 'email@example.com'}</span> | 
           <span> {general.phone || '(123) 456-7890'}</span>
         </div>
-      </header>
+      </header> 
 
       <hr className="divider" />
 

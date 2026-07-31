@@ -15,7 +15,7 @@ export default function Experience({ data, onSave }) {
   const handleSubmit = (e) => {
     e.preventDefault();
     onSave(formData);
-    setIsEditing(false);
+    setIsEditing(false); 
   };
 
   return (
