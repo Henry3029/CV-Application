@@ -1,28 +1,10 @@
-<<<<<<< HEAD
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
-=======
 # CV Builder Application
 
 A modern, interactive CV/Resume builder built with **React**, **JavaScript**, and custom **CSS**. This application allows users to dynamically input their personal details, educational history, and work experience, previewing their resume in real time.
 
 ---
 
-## 📸 Overview
+##Overview
 
 The CV Application is designed to demonstrate key React concepts including:
 * **State Management:** Utilizing `useState` hooks to manage form data dynamically.
@@ -32,7 +14,7 @@ The CV Application is designed to demonstrate key React concepts including:
 
 ---
 
-## 🛠️ Built With
+## Built With
 
 * **Frontend Framework:** [React.js](https://react.dev/)
 * **Language:** JavaScript (ES6+)
@@ -40,7 +22,7 @@ The CV Application is designed to demonstrate key React concepts including:
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
 src/
@@ -98,4 +80,3 @@ npm run dev
 License
 Distributed under the MIT License. See LICENSE for more information.
 
->>>>>>> bac5f5722947a5b0d00931d52dd07a4608d3f7c2
