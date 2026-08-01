@@ -45,23 +45,12 @@
     transform: perspective(2000px) rotateZ(300deg) rotateX(44deg) rotateY(39deg)
       scale(1.4);
   }
-
-  .vite {
-    z-index: 0;
-    top: 107px;
-    height: 26px;
-    width: auto;
-    transform: perspective(2000px) rotateZ(300deg) rotateX(40deg) rotateY(39deg)
-      scale(0.8);
-  }
 }
 
 #center {
   display: flex;
   flex-direction: column;
   gap: 25px;
-  place-content: center;
-  place-items: center;
   flex-grow: 1;
 
   @media (max-width: 1024px) {
@@ -91,7 +80,7 @@
 
   @media (max-width: 1024px) {
     flex-direction: column;
-    text-align: center;
+    text-align: left;
   }
 }
 
@@ -122,7 +111,7 @@
     background: var(--social-bg);
     display: flex;
     padding: 6px 12px;
-    align-items: center;
+    align-items: left;
     gap: 8px;
     text-decoration: none;
     transition: box-shadow 0.3s;
@@ -139,7 +128,7 @@
   @media (max-width: 1024px) {
     margin-top: 20px;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: left;
 
     li {
       flex: 1 1 calc(50% - 8px);
@@ -147,7 +136,7 @@
 
     a {
       width: 100%;
-      justify-content: center;
+      justify-content: left;
       box-sizing: border-box;
     }
   }

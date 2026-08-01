@@ -1,10 +1,9 @@
-section.css
-
 .section-card {
   background: #ffffff;
   padding: 24px;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  text-align: left; 
 }
 
 .section-card h2 {
@@ -12,17 +11,21 @@ section.css
   border-bottom: 2px solid #007bff;
   padding-bottom: 9px;
   color: #007bff;
+  text-align: left; 
 }
 
 .form-group {
   display: flex;
   flex-direction: column;
   margin-bottom: 16px;
+  align-items: flex-start; 
+  width: 100%;
 }
 
 .form-row {
   display: flex;
   gap: 16px;
+  width: 100%;
 }
 
 .form-row .form-group {
@@ -33,9 +36,12 @@ label {
   font-weight: 600;
   margin-bottom: 6px;
   font-size: 0.9rem;
+  text-align: left; 
 }
 
 input, textarea {
+   width 100%;
+   box-sizing: border-box; 
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -54,6 +60,7 @@ input:focus, textarea:focus {
   font-weight: bold;
   cursor: pointer;
   transition: background 0.2s ease;
+  align-self: flex-start; 
 }
 
 .submit-btn {
@@ -77,4 +84,6 @@ input:focus, textarea:focus {
 .display-group p {
   font-size: 1.05rem;
   line-height: 1.5;
+  margin: 6px 0;
+  text-align: left;
 }
